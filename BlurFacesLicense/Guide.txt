@@ -1,0 +1,2 @@
+Run 
+python run.py -i images -o output -l log -d device(cuda,cpu) 
