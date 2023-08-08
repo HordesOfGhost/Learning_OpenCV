@@ -66,7 +66,7 @@ class BlurFacesLicense:
         if type(detected_faces) == dict:
             for key in detected_faces.keys():
                     self.faces_detected += 1
-                    ### Get Cordinatese of each detected faces.
+                    # Get Cordinatese of each detected faces.
                     each_face  = detected_faces[key]
                     facial_area = each_face["facial_area"]
 
@@ -76,7 +76,7 @@ class BlurFacesLicense:
                     # Apply Gaussian blur to the ROI
                     blurred_roi = cv2.GaussianBlur(roi, (29, 29),11,11,cv2.BORDER_DEFAULT )
                     
-                    ### Blur each detected face.
+                    # Blur each detected face.
                     # blur_image = cv2.GaussianBlur(roi,(15,15),0)
                     image[y1:y2, x1:x2] = blurred_roi
         
@@ -131,11 +131,11 @@ class BlurFacesLicense:
         '''
         self.blur_faces()
     
-        ### Predicts on a image
+        # Predicts on a image
         predict_image_v7 = self.yolo_model_v7(self.image)
         predict_image_v8 = self.yolo_model_v8(self.image)
         
-        ### Bounding list from v7 model                
+        # Bounding list from v7 model                
         predict_image_v7_list = predict_image_v7.pandas().xyxy[0].values.tolist() 
         predict_image_v7_list = [[int(item) if index < 4 else item for index, item in enumerate(sublist)] for sublist in predict_image_v7_list]
         predict_image_v7_list = [list[:-1] for list in predict_image_v7_list]
@@ -146,27 +146,18 @@ class BlurFacesLicense:
         if (len(predict_image_v7_list) != 0 or len(predict_image_v8[0].boxes.data) != 0):
             try:
                 
-                ### Filter only vehicles
+                # Filter only vehicles
                 boxes_v7 = [box for box in predict_image_v7_list if ((int(box[5]) == 2) or (int(box[5]) == 3) or (int(box[5]) == 4) or (int(box[5]) == 5) or (int(box[5]) == 6) or (int(box[5]) == 7) or (int(box[5]) == 8)) and (box[4] > 0.25)]
                 boxes_v7 = [[int(item) if index < 4 else item for index, item in enumerate(sublist)] for sublist in boxes_v7]
                 
-                ### Filter only vehicles    
+                # Filter only vehicles    
                 boxes_v8 = torch.stack([box for box in predict_image_v8[0].boxes.data if ((int(box[5]) == 2) or (int(box[5]) == 3) or (int(box[5]) == 4) or (int(box[5]) == 5) or (int(box[5]) == 6) or (int(box[5]) == 7) or (int(box[5]) == 8)) and (box[4] > 0.25)])
 
-                # print(boxes_v7)
-                # print(boxes_v8.tolist())
+                # Combine
                 combined_boxes = boxes_v7 + boxes_v8.tolist()
                 self.vehicles_detected_v7 = len(boxes_v7)
                 self.vehicles_detected_v8 = len(boxes_v8)
-                ### Apply Non Max Suppression for the bouding boxes
-                # confidences = [confidence[4] for confidence in combined_boxes]
-                # boxes = non_max_suppression(np.array(combined_boxes),probs=confidences)
-                # print("--------------AFTER---------------")
-                # print(boxes)
-                # print(len(boxes))
-                # ### Plot
-                # res_plot = predict_image[0].plot()
-                # # plot_image(res_plot)
+
                 boxes = combined_boxes
                 self.total_vehicles_detected = len(boxes)
                 for box in boxes:

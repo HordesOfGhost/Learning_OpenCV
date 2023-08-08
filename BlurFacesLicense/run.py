@@ -10,9 +10,9 @@
     Blurred images to the folder.
     
 """
-from main import BlurFacesLicense
+# from main import BlurFacesLicense
 # from main_v7 import BlurFacesLicense
-# from main_v8 import BlurFacesLicense
+from main_v8 import BlurFacesLicense
 import cv2
 import argparse
 import os

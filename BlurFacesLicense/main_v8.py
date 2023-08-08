@@ -28,7 +28,7 @@ class BlurFacesLicense:
 
     '''
     
-    def __init__(self, image, yolo_model_v7,yolo_model_v8, license_detection_model,device):
+    def __init__(self, image, yolo_model_v7,yolo_model_v8, license_detection_model):
         self.image = image
         self.yolo_model_v7 = yolo_model_v7
         self.yolo_model_v8 = yolo_model_v8
@@ -170,7 +170,7 @@ class BlurFacesLicense:
         else:
             print("No Predictions")
             # self.plot_image(self.image)
-        return self.image,self.vehicles_detected,self.license_plate_detected,self.faces_detected
+        return self.image,self.total_vehicles_detected,self.vehicles_detected_v7,self.vehicles_detected_v8,self.license_plates_detected,self.faces_detected
              
     
 
