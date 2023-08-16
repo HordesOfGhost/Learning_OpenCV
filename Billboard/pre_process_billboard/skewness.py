@@ -66,40 +66,32 @@ def get_destination_points(corners):
     print('\nThe approximated height and width of the original image is: \n', (h, w))
     return destination_corners, h, w
 
-
-def unwarp(img, src, dst):
+def unwrap(img,src,dst):
     """
-
     Args:
         img: np.array
         src: list
         dst: list
-
     Returns:
         un_warped: np.array
-
     """
-    h, w = img.shape[:2]
-    H, _ = cv2.findHomography(src, dst, method=cv2.RANSAC, ransacReprojThreshold=3.0)
-    print('\nThe homography matrix is: \n', H)
-    un_warped = cv2.warpPerspective(img, H, (w, h), flags=cv2.INTER_LINEAR)
+    h,w = img.shape[:2]
+    H,_ = cv2.findHomography(src, dst, method = cv2.RANSAC, ransacReprojThreshold = 3.0)
+    print(f'\n The homography matrix is : \n {H}')
+    un_wraped = cv2.warpPerspective(img, H, (w,h), flags = cv2.INTER_LINEAR)
 
     # plot
 
-    f, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 8))
-    # f.subplots_adjust(hspace=.2, wspace=.05)
+    f,(ax1, ax2) = plt.subplots(1,2)
     ax1.imshow(img)
-    ax1.set_title('Original Image')
-
     x = [src[0][0], src[2][0], src[3][0], src[1][0], src[0][0]]
     y = [src[0][1], src[2][1], src[3][1], src[1][1], src[0][1]]
-
-    ax2.imshow(img)
-    ax2.plot(x, y, color='yellow', linewidth=3)
-    ax2.set_ylim([h, 0])
-    ax2.set_xlim([0, w])
-    ax2.set_title('Target Area')
-
+    ax1.plot(x, y, color = 'yellow', linewidth = 3)
+    ax1.set_ylim([h, 0])
+    ax1.set_xlim([0, w])
+    ax1.set_title('Targeted Area in Original Image')
+    ax2.imshow(un_wraped)
+    ax2.set_title('Unwarped Image')
     plt.show()
-    return un_warped
+    return un_wraped
 
