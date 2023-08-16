@@ -1,0 +1,6 @@
+English : TR,
+
+Nepali : चाउमिन,
+
+Nepali + Hindi : चाउमिन,
+
