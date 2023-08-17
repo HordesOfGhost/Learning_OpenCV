@@ -1,6 +1,0 @@
-English : g
-
-Nepali : 10
-
-Nepali + Hindi : 10
-
