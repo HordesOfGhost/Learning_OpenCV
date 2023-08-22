@@ -1,6 +1,5 @@
-English : T
+English : 
+Nepali : अकाल
 
-Nepali : काला
-
-Nepali + Hindi : काला
+Nepali + Hindi : अकाल
 

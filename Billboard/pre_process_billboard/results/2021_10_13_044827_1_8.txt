@@ -1,6 +1,6 @@
-English : 2
+English : 29
 
-Nepali : 24
+Nepali : 2५
 
-Nepali + Hindi : 24
+Nepali + Hindi : 2५
 

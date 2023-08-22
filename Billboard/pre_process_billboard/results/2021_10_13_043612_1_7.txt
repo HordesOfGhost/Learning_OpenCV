@@ -1,6 +1,3 @@
-English : Qy,
-
-Nepali : ०५,
-
-Nepali + Hindi : ०५,
-
+English : 
+Nepali : 
+Nepali + Hindi : 

@@ -1,6 +1,3 @@
-English : &0l
-
-Nepali : हल
-
-Nepali + Hindi : हल
-
+English : 
+Nepali : 
+Nepali + Hindi : 

@@ -1,6 +1,5 @@
-English : ol AT
+English : 
+Nepali : अजनअनअसभलना
 
-Nepali : खसनकअनमसजना
-
-Nepali + Hindi : खसनकअनमसजना
+Nepali + Hindi : उमसयनसजमना
 

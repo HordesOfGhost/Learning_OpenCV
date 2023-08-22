@@ -1,6 +1,6 @@
 English : Lalitpur,
 
-Nepali : 1810,
+Nepali : 8100,
 
-Nepali + Hindi : 1810,
+Nepali + Hindi : 8100,
 

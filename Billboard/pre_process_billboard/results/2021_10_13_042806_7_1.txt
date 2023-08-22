@@ -1,6 +1,5 @@
-English : .“c
-
-Nepali : न्ेडिकित
+English : 
+Nepali : मेडिकल
 
 Nepali + Hindi : मेडिकल
 

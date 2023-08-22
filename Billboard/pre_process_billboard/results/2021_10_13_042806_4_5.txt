@@ -1,6 +1,3 @@
-English : e
-
-Nepali : जि
-
-Nepali + Hindi : जि
-
+English : 
+Nepali : 
+Nepali + Hindi : 

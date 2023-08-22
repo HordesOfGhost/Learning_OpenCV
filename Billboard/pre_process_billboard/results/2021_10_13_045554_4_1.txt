@@ -1,6 +1,6 @@
-English : sgeneral
+English : = general
 
-Nepali : -2,12-21
+Nepali : न हि भुल सं
 
-Nepali + Hindi : -2,12-21
+Nepali + Hindi : नी ५ <> भुल लि
 

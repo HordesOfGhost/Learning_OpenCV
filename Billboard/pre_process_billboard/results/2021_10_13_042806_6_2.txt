@@ -1,6 +1,5 @@
-English : ol ldliolt
+English : 
+Nepali : गानकनअभसजना
 
-Nepali : खसनक्नअभना
-
-Nepali + Hindi : खसनक्नअभना
+Nepali + Hindi : खमसयनसजमनजा
 

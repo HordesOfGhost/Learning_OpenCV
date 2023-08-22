@@ -1,6 +1,6 @@
-English : e
+English : sy
 
-Nepali : खिम
+Nepali : शिैस्‌
 
-Nepali + Hindi : शिवम
+Nepali + Hindi : शिव्स
 

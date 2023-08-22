@@ -1,6 +1,6 @@
 English : BANK
 
-Nepali : 6007
+Nepali : 60,001
 
-Nepali + Hindi : 6007
+Nepali + Hindi : 60,001
 

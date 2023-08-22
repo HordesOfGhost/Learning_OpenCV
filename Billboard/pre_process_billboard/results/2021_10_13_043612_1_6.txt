@@ -1,6 +1,3 @@
-English : @fetaux
-
-Nepali : ललितपुर
-
-Nepali + Hindi : ललितपुर
-
+English : 
+Nepali : 
+Nepali + Hindi : 

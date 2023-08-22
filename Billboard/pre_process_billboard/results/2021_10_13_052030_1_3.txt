@@ -1,6 +1,6 @@
-English : T
+English : | & GRANITE
 
-Nepali : क्ष
+Nepali : । ६ कक्षा
 
-Nepali + Hindi : क्ष
+Nepali + Hindi : । ६ कक्षा
 

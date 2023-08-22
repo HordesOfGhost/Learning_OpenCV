@@ -1,6 +1,12 @@
-English : Do P
+English : VAR
 
-Nepali : 0800
+ Dev Py
 
-Nepali + Hindi : 0800
+Nepali : 0 ५
+
+1]
+
+Nepali + Hindi : 0 ५
+
+1]
 

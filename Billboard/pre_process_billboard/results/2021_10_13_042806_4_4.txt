@@ -1,6 +1,6 @@
-English : T~ ul
+English : = ul
 
-Nepali : 1711
+Nepali : 111
 
-Nepali + Hindi : 12
+Nepali + Hindi : जी
 

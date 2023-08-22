@@ -1,6 +1,6 @@
-English : R
+English : ey
 
-Nepali : छन
+Nepali : छौ
 
-Nepali + Hindi : छन
+Nepali + Hindi : छौ
 

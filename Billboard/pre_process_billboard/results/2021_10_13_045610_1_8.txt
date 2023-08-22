@@ -1,6 +1,6 @@
-English : Moty
+English : oty
 
-Nepali : भाँठ0छ।
+Nepali : भाँठछ।
 
 Nepali + Hindi : 8
 

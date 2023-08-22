@@ -1,6 +1,5 @@
-English : Boiadsidicil
+English : 
+Nepali : मनकनअसजना
 
-Nepali : मनकामना
-
-Nepali + Hindi : मनकामना
+Nepali + Hindi : मसयवनसमका
 

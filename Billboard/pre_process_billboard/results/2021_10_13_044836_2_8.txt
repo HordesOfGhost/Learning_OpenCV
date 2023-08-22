@@ -1,6 +1,3 @@
-English : e,
-
-Nepali : सल्ल्य
-
-Nepali + Hindi : सल्ल्य
-
+English : 
+Nepali : 
+Nepali + Hindi : 

@@ -1,6 +1,6 @@
 English : Best Remit
 
-Nepali : एल दिशामा
+Nepali : हल्न तिशाणा
 
-Nepali + Hindi : एल दिशामा
+Nepali + Hindi : हटने मिलाएं
 

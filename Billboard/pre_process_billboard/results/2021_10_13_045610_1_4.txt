@@ -1,6 +1,3 @@
-English : s
-
-Nepali : प्लाटिक
-
-Nepali + Hindi : प्लाटिक
-
+English : 
+Nepali : 
+Nepali + Hindi : 

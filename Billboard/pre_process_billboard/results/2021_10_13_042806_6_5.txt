@@ -1,6 +1,5 @@
-English : Hooy
-
-Nepali : च्ञ्स्र
+English : 
+Nepali : चञ्सच
 
 Nepali + Hindi : संस
 

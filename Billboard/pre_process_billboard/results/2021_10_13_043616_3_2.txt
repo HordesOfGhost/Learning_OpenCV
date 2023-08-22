@@ -1,6 +1,4 @@
 English : BB
 
-Nepali : छी
-
-Nepali + Hindi : छी
-
+Nepali : 
+Nepali + Hindi : 

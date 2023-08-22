@@ -1,6 +1,3 @@
-English : T
-
-Nepali : क
-
-Nepali + Hindi : क
-
+English : 
+Nepali : 
+Nepali + Hindi : 

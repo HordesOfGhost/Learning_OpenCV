@@ -1,6 +1,6 @@
-English : FINANCE{LIMITED
+English : FINANCE/LIMITED
 
-Nepali : ति्ाद्हापाणाह
+Nepali : तिता नाल
 
 Nepali + Hindi : 16108
 

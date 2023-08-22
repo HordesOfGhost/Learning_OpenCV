@@ -1,6 +1,6 @@
-English : g R
+English : s
 
-Nepali : दतरुरे सस र
+Nepali : दसतरन स्तर
 
-Nepali + Hindi : ततरीयुर रह कर
+Nepali + Hindi : ततरीयुर स्तर कर
 

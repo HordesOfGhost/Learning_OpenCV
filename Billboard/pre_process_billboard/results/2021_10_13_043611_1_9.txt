@@ -1,6 +1,3 @@
-English : et
-
-Nepali : सो
-
-Nepali + Hindi : सो
-
+English : 
+Nepali : 
+Nepali + Hindi : 

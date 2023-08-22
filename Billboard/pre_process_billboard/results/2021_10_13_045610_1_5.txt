@@ -1,6 +1,3 @@
-English : ifdene
-
-Nepali : छौकिधाट
-
-Nepali + Hindi : छौकिधाट
-
+English : 
+Nepali : 
+Nepali + Hindi : 

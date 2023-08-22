@@ -1,6 +1,6 @@
-English : k=
+English : S
 
-Nepali : हु
+Nepali : हल
 
-Nepali + Hindi : हु
+Nepali + Hindi : हल
 

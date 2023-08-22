@@ -1,6 +1,3 @@
-English : L
-
-Nepali : 4
-
-Nepali + Hindi : 4
-
+English : 
+Nepali : 
+Nepali + Hindi : 

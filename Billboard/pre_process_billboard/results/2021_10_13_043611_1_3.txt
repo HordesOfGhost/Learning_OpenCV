@@ -1,6 +1,6 @@
-English : WIS g
+English : I g
 
-Nepali : धाजकली एट
+Nepali : धाजकली एटेक
 
-Nepali + Hindi : धाजकली एट
+Nepali + Hindi : धाजकली पेश
 

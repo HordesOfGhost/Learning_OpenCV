@@ -1,6 +1,3 @@
-English : 015
-
-Nepali : 01-
-
-Nepali + Hindi : नस
-
+English : 
+Nepali : 
+Nepali + Hindi : 

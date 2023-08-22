@@ -1,6 +1,3 @@
-English : 8
-
-Nepali : 8.
-
-Nepali + Hindi : 8.
-
+English : 
+Nepali : 
+Nepali + Hindi : 

@@ -1,6 +1,3 @@
-English : T
-
-Nepali : ह्
-
-Nepali + Hindi : ह्
-
+English : 
+Nepali : 
+Nepali + Hindi : 

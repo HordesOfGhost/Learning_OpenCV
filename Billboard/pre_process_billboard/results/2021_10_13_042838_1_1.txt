@@ -1,6 +1,3 @@
-English : i,
-
-Nepali : 1]
-
-Nepali + Hindi : 1]
-
+English : 
+Nepali : 
+Nepali + Hindi : 

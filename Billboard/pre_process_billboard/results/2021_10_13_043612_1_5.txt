@@ -1,6 +1,3 @@
-English : 3 |
-
-Nepali : री
-
-Nepali + Hindi : री
-
+English : 
+Nepali : 
+Nepali + Hindi : 
